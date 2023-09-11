@@ -1,0 +1,120 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.content-main {
+    background-color: #cccccc;
+    color: black;
+    font-family: arial, sans-serif;
+}
+
+.content-header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color:  black;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.content-header h1{
+    font-size: 3.5rem;
+    margin: 1rem;
+    font-family: Impact, sans-serif;
+}
+
+
+.content-ul {
+    list-style: none;
+    
+}
+
+.content-li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+.content-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+#pgn-inicial { 
+    background-image: url("img/skate.jpg"); 
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 10rem 0;
+}
+
+
+.content-banner {
+    max-width: 800px;
+    margin: 0px;
+}
+
+.title-banner {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-family: Impact, sans-serif;
+}
+
+.subtitle-banner{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-family: Impact, sans-serif;
+}
+
+
+
+#catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#catalogo h2 {
+    width: 100%;
+    position:static;
+    text-align:center;
+    margin:50px;
+    font-family: Impact, sans-serif;
+}
+
+section {
+    padding: 2rem;
+}
+
+.roupas {
+    border: 1px solid #333;
+    padding: 2rem;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    width: 450px; 
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.roupas-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#sobre {
+    padding: 0;
+    margin: 0;
+    background-color: #ddd;
+}
+
+.content-footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: black;
+    color: #fff;
+}
